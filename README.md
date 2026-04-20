@@ -24,7 +24,7 @@
 ### 付费购买 Token 安装
 把这句话复制给你的 Agent：
 ```text
-Fetch and follow instructions from 占位符
+Fetch and follow instructions from https://raw.githubusercontent.com/shirumesu/respond-like-human/refs/heads/master/docs/install.md
 ```
 
 ### 免 Token 使用自己的大脑安装
