@@ -32,9 +32,10 @@ Fetch and follow instructions from https://raw.githubusercontent.com/shirumesu/r
 ### 免 Token 使用自己的大脑安装
 请在 [release](https://github.com/shirumesu/respond-like-human/releases/latest) 这里下载 zip，当然你也可以直接下载 [SKILL.md](./SKILL.md)
 
-## 副作用？
+## 已知问题
 
 - 这个 SKILL 文本会额外占用大约 2600 个 token.（基于`v0.3`，数据由 [token-calculator.net](https://token-calculator.net/) 给出)
+- 执行短期单轮问答比较良好，一旦涉及大约10分钟以上的不间断运行长任务时，最初加载的SKILL基本就被完全丢掉了，目前还找不到什么好方法
 
 ## TODO
 - [x] 补全具体效果
