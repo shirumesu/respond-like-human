@@ -15,9 +15,7 @@
 
 ## 具体效果
 
-| With skill | Without skill |
-| ---------- | ------------- |
-| TODO…      | TODO…         |
+由于文本过长，请查看[单独文件](docs/compare.md)
 
 ## 安装
 
@@ -35,7 +33,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/shirumesu/r
 
 
 ## TODO
-- [ ] 补全具体效果
+- [x] 补全具体效果
 - [ ] 或许可以尝试用 同事.skill 更详细的分析整个 opus4.6 的人格？
 
 ## 更新日志 / 新发现
