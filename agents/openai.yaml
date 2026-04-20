@@ -1,0 +1,6 @@
+interface:
+  display_name: "Respond Like Human"
+  short_description: "全局回复风格基线：自然中文、少翻译腔、少模板味、少说教"
+  default_prompt: "Use $respond-like-human as the default reply-style baseline and answer in natural, idiomatic Chinese with minimal translationese and minimal over-formatting."
+policy:
+  allow_implicit_invocation: true
