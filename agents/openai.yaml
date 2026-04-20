@@ -1,6 +1,6 @@
 interface:
   display_name: "Respond Like Human"
   short_description: "全局回复风格基线：自然中文、少翻译腔、少模板味、少说教"
-  default_prompt: "Use $respond-like-human when any conversation start, as the default reply-style baseline."
+  default_prompt: "Guide to answering in the user's preferred style. You MUST use $respond-like-human before the start of any conversation, without exception."
 policy:
   allow_implicit_invocation: true

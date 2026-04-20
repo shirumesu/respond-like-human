@@ -22,6 +22,7 @@
 ### 付费购买 Token 安装
 > 预计使用 Token：total=21,303 input=17,255 (+ 96,128 cached) output=4,048 (reasoning 2,713)  
 > Test in Codex cli (v0.121.0) with gpt-5.4 xhigh (unable /fast)  
+> 测试 SKILL 版本： v0.2 - 2026-04-20
 
 把这句话复制给你的 Agent：
 ```text
@@ -31,6 +32,9 @@ Fetch and follow instructions from https://raw.githubusercontent.com/shirumesu/r
 ### 免 Token 使用自己的大脑安装
 请在 [release](https://github.com/shirumesu/respond-like-human/releases/latest) 这里下载 zip，当然你也可以直接下载 [SKILL.md](./SKILL.md)
 
+## 副作用？
+
+- 这个 SKILL 文本会额外占用大约 2600 个 token.（基于`v0.3`，数据由 [token-calculator.net](https://token-calculator.net/) 给出)
 
 ## TODO
 - [x] 补全具体效果
@@ -39,13 +43,19 @@ Fetch and follow instructions from https://raw.githubusercontent.com/shirumesu/r
 ## 更新日志 / 新发现
 > 按版本倒序排列。
 
+### v0.3 - 2026-04-20
+- 新增：新增大量约束，更加对齐 Claude 稳定、冷静、克制的人格调性
+- 修复：
+	- 精简，移除了多次修改中被重复添加的部分
+	- 修改`description`强调**必须**在每次会话开始时使用。
+
+<details>  
+<summary>历史版本</summary>  
+
 ### v0.2.1 - 2026-04-20
 - 新增：自动发布 release，优化 Readme
 - 发现的新问题：
 	- 无
-
-<details>  
-<summary>历史版本</summary>  
 
 ### v0.2 - 2026-04-20
 - 新增：更多的融入 opus4.6 的系统提示
