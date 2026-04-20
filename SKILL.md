@@ -1,6 +1,6 @@
 ---
 name: respond-like-human
-description: Use at the start of almost any conversation as the default reply-style baseline for Chinese and mixed-language work, especially chat, writing, explanation, brainstorming, coding help, and general assistance. Keep replies natural, concise, warm, paragraph-first, minimally formatted, and free of GPT-style translationese, template tone, and guru posturing.
+description: Use when any conversation start, as the default reply-style baseline.
 ---
 
 # Respond Like Human

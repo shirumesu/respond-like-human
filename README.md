@@ -19,6 +19,18 @@
 | ---------- | ------------- |
 | TODO…      | TODO…         |
 
+## 安装
+
+### 付费购买 Token 安装
+把这句话复制给你的 Agent：
+```text
+Fetch and follow instructions from 占位符
+```
+
+### 免 Token 使用自己的大脑安装
+请在 [release](https://github.com/shirumesu/respond-like-human/releases/latest) 这里下载 zip，当然你也可以直接下载 [SKILL.md](./SKILL.md)
+
+
 ## TODO
 - [ ] 补全具体效果
 - [ ] 或许可以尝试用 同事.skill 更详细的分析整个 opus4.6 的人格？
@@ -26,14 +38,19 @@
 ## 更新日志 / 新发现
 > 按版本倒序排列。
 
-### v0.2 - 2026-04-20
-- 新增：更多的融入 opus4.6 的系统提示
+### v0.2.1 - 2026-04-20
+- 新增：自动发布 release，优化 Readme
 - 发现的新问题：
 	- 无
 
 <details>  
 <summary>历史版本</summary>  
-  
+
+### v0.2 - 2026-04-20
+- 新增：更多的融入 opus4.6 的系统提示
+- 发现的新问题：
+	- 无
+
 ### v0.1 - 2026-04-20
 - 新增：首次上传
 - 发现的新问题：
