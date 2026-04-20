@@ -22,6 +22,9 @@
 ## 安装
 
 ### 付费购买 Token 安装
+> 预计使用 Token：total=21,303 input=17,255 (+ 96,128 cached) output=4,048 (reasoning 2,713)  
+> Test in Codex cli (v0.121.0) with gpt-5.4 xhigh (unable /fast)  
+
 把这句话复制给你的 Agent：
 ```text
 Fetch and follow instructions from https://raw.githubusercontent.com/shirumesu/respond-like-human/refs/heads/master/docs/install.md
