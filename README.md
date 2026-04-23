@@ -37,7 +37,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/shirumesu/r
 
 ## 已知问题
 
-- 这个 SKILL 文本会额外占用大约 2600 个 token.（基于`v0.3`，数据由 [token-calculator.net](https://token-calculator.net/) 给出)
+- 这个 SKILL 文本会额外占用大约 960 个 token.（基于`v0.4`，数据由 [token-calculator.net](https://token-calculator.net/) 给出)
 - 执行短期单轮问答比较良好，一旦涉及大约10分钟以上的不间断运行长任务时，最初加载的SKILL基本就被完全丢掉了，目前还找不到什么好方法
 
 ## TODO
@@ -48,7 +48,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/shirumesu/r
 > 按版本倒序排列。
 
 ### v0.4 - 2026-04-23
-- 重构：实在太重了，精简了一下尽可能保留了最必要的内容
+- 重构：实在太重了，精简了一下尽可能保留了最必要的内容，削减大约 60% token 占用
 - 新增：
 	- 由于Web / APP存在1500字符的个性化设置上限，提炼了一版1500字符的
 	- 新增对比示例中的Web App示例
